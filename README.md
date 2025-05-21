@@ -8,6 +8,8 @@ O objetivo principal desta POC é explorar e ilustrar uma abordagem básica para
 
 ## 🚀 Demonstração
 
+![auto-fill](https://github.com/user-attachments/assets/20c93393-7352-487f-ad6a-7bc2bf9933cc)
+
 ## 🛠️ Como Usar
 
 1.  Clone este repositório:
