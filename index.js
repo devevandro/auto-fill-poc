@@ -1,8 +1,8 @@
 const puppeteer = require("puppeteer");
 
-const LOGIN_URL = "http://portainer.coolify.innovadevhouse.com.br/#!/auth";
-const USERNAME = "admin";
-const PASSWORD = "$2y$10$ihzLWIib5lMtRo5nvxwOQe9Mv0mpW3d0gF7eLi1LV8FkhPUW/77O2";
+const LOGIN_URL = ''; // URL para a realização do login
+const USERNAME = '' // usuário;
+const PASSWORD = '' // senha;
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -22,6 +22,5 @@ const PASSWORD = "$2y$10$ihzLWIib5lMtRo5nvxwOQe9Mv0mpW3d0gF7eLi1LV8FkhPUW/77O2";
     page.waitForNavigation({ waitUntil: "networkidle2" }),
   ]);
 
-  console.log("Login feito com sucesso!");
   await new Promise((resolve) => setTimeout(resolve, 10000));
 })();
